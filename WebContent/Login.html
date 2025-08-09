@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Here</title>
+<style>
+
+input {
+	font-size: 24px;
+	border: 2px solid blue;
+	border-radius: 40px;
+}
+
+input:hover {
+	font-size: 24px;
+	border: 2px solid blue;
+	border-radius:40px;
+}
+body
+{
+	background-color: pink;
+}
+#reg
+{
+	background-color: cyan;
+}
+#reg:hover
+{
+	background-color: Turquoise;
+}
+</style>
+</head>
+<body>
+<h1>
+<center>
+<b>| Login Page |</b><br><br>
+<form action="LoginController" method="get">
+		<table>
+			<tr>
+				<label>UserName :</label>
+				<input type="text" name="uname" required></input>
+			</tr><br><br>
+			<tr>
+				<label>Password :</label>
+				<input type="text" name="pass" required></input>
+			</tr><br><br>
+			<td><input id="reg" type="submit" value="  LOGIN  "></input></td>
+		</table>
+	</form>
+	</center></h1>
+</body>
+</html>

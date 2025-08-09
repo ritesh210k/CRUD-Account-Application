@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Here</title>
+<style>
+input {
+	font-size: 24px;
+	border: 2px solid blue;
+	border-radius: 40px;
+}
+
+input:hover {
+	font-size: 24px;
+	border: 2px solid blue;
+	border-radius:40px;
+}
+body
+{
+	background-color: pink;
+}
+#reg
+{
+font-size: 25px;
+	background-color: cyan;
+}
+#reg:hover
+{
+font-size: 25px;
+	background-color: Turquoise;
+}
+</style>
+</head>
+<body>
+	<h1>
+	<center>
+		<b>| Register Page |</b><br><br>
+		<form action="RegisterController" method="get">
+			
+				<table align="center">
+					<tr>
+						<label>Account Number :</label>
+						<input type="text" name="accno" required></input>
+					</tr>
+					<br>
+					<br>
+					<tr>
+						<label>Customer Name :</label>
+						<input type="text" name="custname" required></input>
+					</tr>
+					<br>
+					<br>
+					<tr>
+						<label>Account Balance :</label>
+						<input type="text" name="accbal" required></input>
+					</tr>
+					<br>
+					<br>
+					<tr>
+						<label>UserName :</label>
+						<input type="text" name="uname" required></input>
+					</tr>
+					<br>
+					<br>
+					<tr>
+						<label>Password :</label>
+						<input type="text" name="pass" required></input>
+					</tr>
+					<br>
+					<br>
+					<td><input id="reg" type="submit" value="  REGISTER  "></input></td>
+				</table>
+			</center>
+		</form>
+
+	</h1>
+</body>
+</html>
